@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sumo-traci-generate-accident"
+version = "0.1.0"
+description = "A sumo traffic simulation with accident generation using traci api"
+authors = ["holynacll"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "3.11.5"
+eclipse-sumo = "^1.20.0"
+black = "^24.8.0"
+traci = "^1.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
